@@ -1,0 +1,54 @@
+{
+  "name": "@votchitsev/eslint-config",
+  "version": "1.0.0",
+  "description": "Modular ESLint configuration for JavaScript, TypeScript & React with Prettier integration",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "typescript",
+    "react",
+    "prettier"
+  ],
+  "author": "D.Votchitsev <d.votchitsev@yandex.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Votchitsev/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Votchitsev/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Votchitsev/eslint-config#readme",
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
+    "@typescript-eslint/parser": "^8.34.1",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-import-resolver-typescript": "^4.4.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3"
+  },
+  "exports": {
+    "./recommended": {
+      "default": "./recommended/index.js",
+      "types": "./recommended/index.d.ts"
+    },
+    "./react": {
+      "default": "./react/index.js",
+      "types": "./react/index.d.ts"
+    },
+    "./typescript": {
+      "default": "./typescript/index.js",
+      "types": "./typescript/index.d.ts"
+    }
+  }
+}
