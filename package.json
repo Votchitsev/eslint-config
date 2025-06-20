@@ -21,6 +21,9 @@
   "homepage": "https://github.com/Votchitsev/eslint-config#readme",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": "^8.57.0"
   },
