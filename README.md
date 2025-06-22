@@ -1,4 +1,5 @@
 # @votchitsev/eslint-config
+![NPM Version](https://img.shields.io/npm/v/@votchitsev/eslint-config)
 
 This package provides a modular and extensible ESLint configuration for modern JavaScript and TypeScript projects. It’s structured into three separate configs, each addressing a specific concern:
 
