@@ -1,5 +1,6 @@
 # @votchitsev/eslint-config
 ![NPM Version](https://img.shields.io/npm/v/@votchitsev/eslint-config)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Votchitsev/eslint-config/npm-publish.yml)
 
 This package provides a modular and extensible ESLint configuration for modern JavaScript and TypeScript projects. It’s structured into three separate configs, each addressing a specific concern:
 
